@@ -288,7 +288,7 @@ export function FiltersModal({
                   onChange={(e) => setCaEndsInPump(e.target.checked)}
                   className="w-4 h-4 rounded border-[#2a2a30] bg-[#1f1f24] text-blue-500"
                 />
-                <span className="text-sm text-gray-300">CA ends in &apos;pump&apos;</span>
+                <span className="text-sm text-gray-300">{"CA ends in 'pump'"}</span>
               </label>
             </div>
           </div>
