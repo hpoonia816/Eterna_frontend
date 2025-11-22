@@ -19,6 +19,7 @@ import { MobileNav } from "@/components/layout/MobileNav";
 import { useTokens } from "@/hooks/useTokens";
 import { useWebSocket } from "@/hooks/useWebSocket";
 import type { Token } from "@/types";
+import type { TokenCategory } from "@/types";
 
 /**
  * Main page component for token discovery
